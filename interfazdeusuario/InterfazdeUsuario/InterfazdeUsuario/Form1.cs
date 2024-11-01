@@ -20,7 +20,7 @@ namespace InterfazdeUsuario
         public Form1()
         {
             InitializeComponent();
-            //imagenDelForm();
+            imagenDelForm();
             this.Text =string.Empty;
             this.DoubleBuffered = true;
             //el maxomizado de la pantalal igual al area de trabajo
@@ -73,12 +73,12 @@ namespace InterfazdeUsuario
            
         }
 
-        //private void imagenDelForm()
-        //{
-        //    Bitmap imagen = new Bitmap(Application.StartupPath+ @"\imagenes\433002419_6916968025079610_1357578493705198718_n.jpg");
-        //    this.BackgroundImage = imagen;
-        //    this.BackgroundImageLayout = ImageLayout.None;
-        //}
+        private void imagenDelForm()
+        {
+            Bitmap imagen = new Bitmap(Application.StartupPath + @"\imagenes\433002419_6916968025079610_1357578493705198718_n.jpg");
+            this.BackgroundImage = imagen;
+            this.BackgroundImageLayout = ImageLayout.Stretch;
+        }
 
         private void btnAyuda_Click_1(object sender, EventArgs e)
         {
@@ -98,7 +98,7 @@ namespace InterfazdeUsuario
 
         private void btnMiembros_MouseLeave(object sender, EventArgs e)
         {
-            btnMiembros.BackColor = Color.FromArgb(34, 51, 59);
+            btnMiembros.BackColor = Color.FromArgb(18, 27, 31);
         }
 
         private void btnAdministrador_MouseHover(object sender, EventArgs e)
@@ -110,7 +110,7 @@ namespace InterfazdeUsuario
         private void btnAdministrador_MouseLeave(object sender, EventArgs e)
         {
 
-            btnAdministrador.BackColor = Color.FromArgb(34, 51, 59);
+            btnAdministrador.BackColor = Color.FromArgb(18, 27, 31);
 
         }
 
@@ -123,7 +123,7 @@ namespace InterfazdeUsuario
 
         private void btnAyuda_MouseLeave(object sender, EventArgs e)
         {
-            btnAyuda.BackColor = Color.FromArgb(34, 51, 59);
+            btnAyuda.BackColor = Color.FromArgb(18, 27, 31);
 
         }
 
@@ -134,7 +134,7 @@ namespace InterfazdeUsuario
 
         private void btnAbout_MouseLeave(object sender, EventArgs e)
         {
-            btnAbout.BackColor = Color.FromArgb(34, 51, 59);
+            btnAbout.BackColor = Color.FromArgb(18, 27, 31);
         }
     }
 }

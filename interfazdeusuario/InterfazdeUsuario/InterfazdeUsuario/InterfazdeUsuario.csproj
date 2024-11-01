@@ -83,6 +83,7 @@
     <Compile Include="Formularios\AboutBox1.Designer.cs">
       <DependentUpon>AboutBox1.cs</DependentUpon>
     </Compile>
+    <Compile Include="models\consejos.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -121,9 +122,7 @@
   <ItemGroup>
     <None Include="Resources\uam-logo-E7ED465661-seeklogo.com.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="models\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.8">
       <Visible>False</Visible>
@@ -141,6 +140,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\logo-uam-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\imagenes\433002419_6916968025079610_1357578493705198718_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loooooooooo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

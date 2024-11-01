@@ -63,9 +63,29 @@ namespace InterfazdeUsuario.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _433002419_6916968025079610_1357578493705198718_n {
+            get {
+                object obj = ResourceManager.GetObject("_433002419_6916968025079610_1357578493705198718_n", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap logo_uam_2 {
             get {
                 object obj = ResourceManager.GetObject("logo_uam_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap loooooooooo {
+            get {
+                object obj = ResourceManager.GetObject("loooooooooo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
